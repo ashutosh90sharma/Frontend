@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>My First  webpage</title>
+    <style>
+        .box{
+            color: blue;
+            background-color: red;
+            text-align: center;text-transform: capitalize;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;text-shadow: 2px 2px 5px green;
+    padding: 5px;border-radius: 50px;box-shadow: 0px opx 8px;"
+
+        }
+        #1{
+            background-color: pink;
+        }
+    </style>
 </head>
+
 <body>
     <h1>This is my heading tag</h1>
     <h2>This is my heading tag</h2>
@@ -15,7 +30,7 @@
     <br>
     <img src="ashutosh.jpg" alt="img not found">
     <br>
-    <video src="hi.mp4" width="300" autoplay loop></video>
+    <video src="hi.mp4" width="300" controls loop></video>
     <br>
     <audio src="" controls></audio>
     <!-- formatting tags -->
@@ -205,6 +220,88 @@
             <th colspan="2">Subtiltle</th>
         </tr>
     </table>
+    <form action="" enctype="" method="">
+        <!-- action for managing url -->
+        <!-- method is used for get and post request
+           get request is used for less security data and also with blank request
+           and post request is used for more or high security data 
+            enctype use for sending file 
+         name- name attribute use for sending data on partuculaor varible on backend-->
+         <br>
+         
+    </form>
+    <form action="">
+        <!-- for adding css in keywords like name email etc we use label tag -->
+        <label for="name" style="color: blue">Name</label>
+        <input type="text" name="" id="name"  ><br>
+        <label for="email">email</label>
+        <input type="email" name="" id="email" autofocus>
+        <!-- by autofocus we can automatically  -->
+        <!-- readonly -->
+        <!-- disable -->
+        <br>
+        <label for="password" style="color: red">password</label>
+        <input type="password" name="" id="password">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender"><br>
+
+       Language
+       <label for="hindi" style="color: red;">Hindi</label>
+       <input type="radio" name="ram" id="hindi">
+       <label for="eng">English</label>
+       <input type="radio" name="ram" id="eng"><br>
+
+       <label for="s">Submit</label>
+       <input type="submit" name="" id="s">
+
+       <button>submit</button>
+
+
+
+    </form>
+
+    <h1>my name <p style="color: red;">is </p>ashutosh</h1>
+    <!-- now i want to add redcolor with is for that we need to put "is" into a tag but when we put it into p,h tag that time "is " will 
+    seprate (because p and h tags are block tags) from all sentance for not seprating we use span tag-->
+
+    <h1>my name <span style="color: red;">is </span>ashutosh</h1>
+
+    java <progress max="100" value="70"></progress><br>
+    javascript <progress max="100" value="50"></progress><br>
+    python <progress max="100" value="30"></progress><br>
+    html <progress max="100" value="95"></progress><br>
+    <header></header>
+    <footer></footer>
+    <main></main>
+    <article></article>
+
+    <!-- sementic tag eg
+    <header></header>
+    <footer></footer>
+    <main></main>
+    <article></article> -->
+
+    <!-- CSS         CSS                 CSS             CSS  -->
+
+    <!-- three type of css
+        1. inline css 
+        2. internal css
+        3. external css
+        inline css drawback is code is repeating again and again and readabality is complexcity
+        -->
+    <h1 style="color: blue;background-color: red;text-align: center;text-transform: capitalize;font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;text-shadow: 2px 2px 5px green;padding: 5px;border-radius: 50px;box-shadow: 0px opx 8px;">This is param </h1>
+
+    <!-- internal css 
+     to connect html content to style tag(internal tag ) we use selector
+        1.id sel
+        2. class
+        3.psuedo-->
+
+        <h1 class="box">Namestaya Bharat</h1><br>
+        <h1 class="box" id="1">Namestaya India</h1>
     
 </body>
 </html>
