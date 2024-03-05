@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>My First  webpage</title>
     <style>
+        body{
+            background-color: yellow;
+        }
+        *{
+             padding: 0%;
+            margin: 0%;  
+        }
         .box{
             color: blue;
             background-color: red;
@@ -24,6 +31,60 @@
             padding: 20px;
             margin: 20;
             
+        }
+        .table{
+            border: 1px;
+            
+          
+            text-align: center;
+            margin-left: 40%;
+            box-shadow: 0px opx 8px;
+        }
+        .table th{
+            outline: none;
+            border: none;
+             background-color: yellowgreen; 
+            /* border-radius: 10px; */
+            
+            padding: 5px;
+            
+            
+            
+            
+
+        }
+        table td{
+            border: rgb(153, 155, 146);
+            padding: 20px 20px 5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .row1{
+            background-color: rgb(167, 149, 149);
+            border-radius: 5px;
+            margin: ;
+            
+        }
+        .row2{
+            background-color: rgb(44, 183, 183);
+            border-radius: 5px;
+          
+        }
+        .row3{
+            background-color: rgb(148, 155, 161);
+            border-radius: 10px;
+           
+        }
+        .display{
+            height: 60px;
+            width: 25%;
+            background-color: red;
+        }
+        .he{
+            height: 60px;
+            width: 25%;
+            background-color: yellow;
+            display: inline;
         }
         
     </style>
@@ -100,26 +161,26 @@
     tr- table row
     th-table heading
      -->
-    <table border="2">
+    <table border="2" class="table">
         <tr>
             <th>Id</th>
             <th>Name</th>
             <th>Email</th>
             <th>City</th>
         </tr>
-        <tr>
+        <tr class="row1">
             <td>1</td>
             <td>Ashutosh sharma</td>
             <td>ashutosh2ever@gmail.com</td>
             <td>jaipur</td>
         </tr>
-        <tr>
+        <tr class="row2">
             <td>2</td>
             <td>vikash sharma</td>
             <td>vikash2ever@gmail.com</td>
             <td>jodhpur</td>
         </tr>
-        <tr>
+        <tr class="row3">
             <td>3</td>
             <td>Bhaskar sharma</td>
             <td>bhaskar2ever@gmail.com</td>
@@ -332,7 +393,64 @@
                 <input type="password" name="" id="">
 
             </form>
-        
+            <!-- core css -->
+            <!-- 1 display
+              block
+              inline 
+            inline block
+        flex 
+    grid
+above these are properties of display
+by defult can be block or inline 
+margin 50px is used for overall
+margint 50px 50px it is spacific for x-axis and y-axis
+* universal tag
+display block adavantage is it have width and hight is enabled while disadvantage is that it can not arrange div horizantial
+display inline advantage is that it arrang div horizatial while disadvantage is that it disaple width and hight
+for the solution of above display drawback we have another display property that have proporty of both display(block and inline
+) called inline block -->
+
+<div class="display">
+    <h1>my name is ashu</h1>
+
+</div>
+
+<div class="display">
+    <h1>my name is ashu</h1>
+
+</div>
+<div class="display">
+    <h1>my name is ashu</h1>
+
+</div>
+<!-- now we use inline -->
+
+<div class="he">
+    my name is ashu
+
+</div>
+
+<div class="he">
+    my name is ash
+
+</div>
+<div class="he">
+   <h1></h1> my name is ashu
+    my name is ashu
+    my name is ashu
+    my name is ashu
+    <h1>my name is ashu</h1>
+    
+    
+
+    
+
+    
+
+
+</div> 
+ <!--like h,p and many more tags are by default display block
+and like span and many more tags are by default display inline  -->
     
 </body>
 </html>
