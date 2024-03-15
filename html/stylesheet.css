@@ -1,0 +1,279 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+}
+.box1{
+    height: 80vh;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.internal{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid gray; */
+}
+#internal1 img{
+    height: 100%; width: 100%;
+}
+.div1{
+    height: 70%;
+    width: 100%;
+     border: 1px solid rgb(226, 216, 216); 
+}
+.div11{
+    height: 30%;
+    width: 100%;
+     /* background-color: pink;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img img{
+    height: 50px; width: 174px;
+}
+
+.div12{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    
+}
+.div10{
+    height: 15%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inp1{
+    height: 65%;
+    width: 80%;
+}
+.inp1 input{
+    height: 100%;
+    width: 100%;
+}
+.div22{
+    height: 15%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inp2{
+    height: 65%;
+    width: 80%;
+}
+.inp2 input{
+    height: 100%;
+    width: 100%;
+}
+.div33{
+    height: 15%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Login{
+    height: 70%;
+    width: 80%;
+}
+.Login button{
+    font-size: 14px ;
+    color: #FFFFFF;
+    background-color: #0095f6;
+     border: none;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+.div44{
+    height: 20%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+   
+
+
+}
+.line1{
+    height: 5px;
+    width: 25%;
+}
+.OR{
+    height: 5px;
+    width: 5px;
+    margin: -15px 40px 0px 40px;
+    
+}
+.OR p{
+   color: #737373;
+    
+
+}
+.line2{
+    height: 5px;
+    width: 25%;
+    
+}
+
+.div55{
+    height: 15%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one img{
+    height: 16px;
+    width: 16px;
+    margin: 0px 8px 0px 0px;
+    
+   
+}
+.two a{
+   
+    text-decoration-line: none;
+
+}
+.div66{
+     height: 10%;
+     width: 100%;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+    
+} 
+.link a{
+    text-decoration-line: none;
+    color: #00376B;
+
+
+}
+.div2{
+    height: 10%;
+    width: 100%;
+    border: 1px solid rgb(226, 216, 216);  
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.div2 div span a{
+    text-decoration-line: none;
+    color: #0095F6;
+}
+.div3{
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid gray; */
+}
+.div4{
+    height: 20%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.div5{
+    height: 80%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.div51{
+    height: 100%;
+    width: 30%;
+
+}
+.div51 img{
+    height: 40px;
+    width: 134.5px;
+}
+.div52{
+    height: 100%;
+    width: 30%;
+    
+}
+.div52 img{
+    height: 40px;
+    width: 110px;
+}
+.box2{
+    height: 10vh;
+    width: 50%;
+    
+     
+}
+.box21{
+    height: 50%;
+    width: 100%;
+    
+
+}
+.box21 div ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.box21 div ul li{
+    font-size: 13px;
+    color: #737373;
+    
+}
+
+.box22{
+    height: 50%;
+    width: 100%;
+
+}
+.option{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.option select,span{
+    border: none;
+    font-size: 13px;
+    color: #737373;
+}
+
