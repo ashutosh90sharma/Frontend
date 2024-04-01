@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .box{
+        width: 100px;
+        height: 150px;
+        border: 1px solid black;
+        
+        
+        
+        
+
+    }
+    #mohit{
+        animation-name: mohit;
+        
+        animation-duration: 100s;
+        animation-iteration-count: infinite;
+        position: relative;
+
+    }
+    #naresh{
+        animation-name: naresh;
+        
+        animation-duration: 100s;
+        animation-iteration-count: infinite;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+
+    }
+
+
+    
+    @keyframes mohit{
+        0%{
+            left: 300px;
+            top: 0px;
+            background-color: black;
+            border-radius: 0px;
+
+        }
+        25%{
+            left: 300px;
+            top: 300px;
+            background-color: yellow;
+            border-radius: 20px;
+            
+        }
+        75%{
+            left: 0px;
+            top: 300px;
+            background-color: blue;
+            border-radius: 20px;
+
+            
+        }
+        
+        100%{
+            left: 0px;
+            top: 0px;
+            background-color: brown;
+            border-radius: 20px;
+            
+        }
+
+    }
+     @keyframes naresh{
+        0%{
+            right: 0px;
+            top: 0px;
+            background-color: black;
+            border-radius: 0px;
+
+        }
+        25%{
+            right: 300px;
+            top: 0px;
+            background-color: yellow;
+            border-radius: 20px;
+            
+        }
+        75%{
+            right: 300px;
+            top: 300px;
+            background-color: blue;
+            border-radius: 20px;
+
+            
+        }
+       
+        100%{
+            right: 0px;
+            top: 300px;
+            background-color: brown;
+            border-radius: 20px;
+            
+        }
+
+    } 
+    
+    
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="mohit">
+            mohit
+
+
+        </div>
+        <div class="box" id="naresh">
+            naresh
+    
+    
+        </div>
+    </div>
+    
+</body>
+</html>

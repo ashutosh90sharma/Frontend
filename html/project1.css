@@ -170,6 +170,7 @@
     font-family: sans-serif;
     font-weight: 400;
     padding: 40px 0px 20px 0px;
+    text-align: justify;
 }
 
 .images {
@@ -231,10 +232,7 @@ p {
     background-color: #F1F1F1;
 }
 
-.topbottom button:hover {
 
-    /* background-color: black; */
-}
 
 .topbottom button {
 
@@ -251,9 +249,17 @@ p {
 #button1{
     background-color: #FFFFFF;
 }
+#button1:hover{
+    background-color: #000;
+    color: #F1F1F1;
+}
 
 #button2{
     background-color: #F44336;
+}
+#button2:hover{
+    background-color: #000;
+    color: #F1F1F1;
 }
 
 
@@ -310,4 +316,80 @@ p {
     
 
    
+}
+
+.bar{
+    display: none;
+}
+@media only screen and (max-width:922px){
+    .box1{
+        display:none;
+    }
+    .box2{
+        width: 100%;
+    }
+    .bar{
+        width: 100%;
+        background-color: red;
+       
+        position: sticky;
+        
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .bar i{
+       
+        /* background-color: #000; */
+        font-size: 20px;
+        
+        padding: 20px;
+        color: #F1F1F1;
+        padding:20px;
+        cursor: pointer;
+        
+    }
+    .bar i:hover{
+
+    }
+    .bar h2{
+        font-size: 30px;
+        color: #F1F1F1;
+        padding:20px;
+
+    }
+    
+
+}
+@media  only screen and (max-width:529px) {
+    .img{
+        display: block;
+    }
+    .firstimg {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    
+    }
+    .images{
+        display: block;
+    }
+    .one{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .list{
+        display: block;
+
+    }
+    .section{
+        width: 100%;
+    }
+
+
+
+    
 }
